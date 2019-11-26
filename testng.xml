@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SMOKE" parallel="tests" thread-count="6">
+    <listeners>
+        <listener class-name="utils.Listeners"/>
+        <listener class-name="utils.ExtentReporterNG"/>
+    </listeners>
+
+    <test name="Personal loan">
+        <parameter name="URL" value="personalloan.com"/>
+        <classes>
+            <class name="tests.EcommerceTC1">
+                <methods>
+                    <!--<include name="testCaseForFailing"/>-->
+                    <!--<include name="helloTest"/>-->
+                    <include name="testWithMultipleDataSet"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <!--<test name="Car Loan">-->
+    <!--<parameter name="URL" value="carloan.com"/>-->
+    <!--<parameter name="APIKey/usrname" value="123456"/>-->
+    <!--<classes>-->
+
+    <!--<class name="test.day3">-->
+    <!--<methods>-->
+    <!--<exclude name="API.*"/>-->
+    <!--</methods>-->
+    <!--</class>-->
+    <!--</classes>-->
+    <!--</test>-->
+</suite> 

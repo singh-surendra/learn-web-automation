@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="6644" started-at="2019-07-24T22:21:51Z" finished-at="2019-07-24T22:21:58Z">
+    <groups>
+    </groups>
+    <test name="AppiumDemoProject" duration-ms="6644" started-at="2019-07-24T22:21:51Z" finished-at="2019-07-24T22:21:58Z">
+      <class name="tests.BaseClass">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.BaseClass@2d6e8792]" name="setup" is-config="true" duration-ms="6618" started-at="2019-07-24T22:21:51Z" finished-at="2019-07-24T22:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:tests.BaseClass@2d6e8792]" name="sampleTest" duration-ms="0" started-at="2019-07-24T22:21:58Z" finished-at="2019-07-24T22:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.BaseClass@2d6e8792]" name="teardown" is-config="true" duration-ms="0" started-at="2019-07-24T22:21:58Z" finished-at="2019-07-24T22:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.BaseClass -->
+    </test> <!-- AppiumDemoProject -->
+  </suite> <!-- Default Suite -->
+</testng-results>
