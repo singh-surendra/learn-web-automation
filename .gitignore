@@ -10,3 +10,4 @@ src/main/resources/configuration.groovy
 src/main/*.groovy
 allure-results
 */allre-results
+*.xml
