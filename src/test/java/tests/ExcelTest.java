@@ -11,5 +11,10 @@ public class ExcelTest extends BaseTestWeb {
         driver.get("https://selenium.dev/documentation/en/getting_started/quick/#webdriver");
     }
 
+@Test
 
+    public void test1(){
+
+    System.out.println("Test");
+}
 }
