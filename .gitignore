@@ -1,0 +1,12 @@
+*.iml
+.idea
+test-output
+target
+logs
+.DS_Store
+selenium-grid.yml
+id_rsa.txt
+src/main/resources/configuration.groovy
+src/main/*.groovy
+allure-results
+*/allre-results
