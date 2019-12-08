@@ -1,4 +1,4 @@
-package restassured.GetRequest;
+package restassured.Get;
 
 import io.restassured.response.Response;
 import org.testng.Assert;
