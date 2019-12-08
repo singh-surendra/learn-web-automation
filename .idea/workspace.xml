@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca2b57c-c0bf-4cb8-bf03-6b64f4c8ffd6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/OAuth1/OAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/basicAuthentication/BaseAuthentication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restassured/postdeleteput/Post_Put_Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restassured/postdeleteput/Post_Put_Delete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppiumDemoProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AppiumDemoProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restassured/basicAuthentication/BasicAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restassured/basicAuthentication/BasicAuthentication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,34 +68,34 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="40" />
-          <entry key="java" value="828" />
-          <entry key="txt" value="7" />
-          <entry key="xml" value="10" />
+          <entry key="java" value="2122" />
+          <entry key="txt" value="32" />
+          <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="828" />
-          <entry key="PLAIN_TEXT" value="47" />
-          <entry key="XML" value="10" />
+          <entry key="JAVA" value="2122" />
+          <entry key="PLAIN_TEXT" value="72" />
+          <entry key="XML" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
+          <entry key="class" value="4" />
           <entry key="gitignore" value="1" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="9" />
-          <entry key="xml" value="3" />
+          <entry key="iml" value="2" />
+          <entry key="java" value="15" />
+          <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="9" />
+          <entry key="CLASS" value="4" />
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="JAVA" value="15" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="3" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -103,23 +107,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/restassured/OAuth1/OAuth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="139" selection-start-line="139" selection-end-line="139" />
+            <state relative-caret-position="375">
+              <caret line="98" column="44" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/restassured/postdeleteput/Post_Put_Delete.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0-sources.jar!/io/restassured/specification/AuthenticationSpecification.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="75" column="48" lean-forward="true" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="452">
+              <caret line="149" column="25" selection-start-line="149" selection-start-column="25" selection-end-line="149" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="632">
+              <caret line="144" column="21" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -155,10 +168,14 @@
         <option value="$PROJECT_DIR$/src/main/java/driverbase/BaseTestWeb.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/getData/GetRequest.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/Get/GetRequest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/restassured/basicAuthentication/BasicAuthentication.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/postdeleteput/Post_Delete_Put.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/postdeleteput/Post_Put_Delete.java" />
+        <option value="$PROJECT_DIR$/src/test/java/restassured/basicAuthentication/BaseAuthentication.java" />
+        <option value="$PROJECT_DIR$/src/test/java/restassured/basicAuthentication/BasicAuthentication.java" />
+        <option value="$PROJECT_DIR$/src/test/java/restassured/OAuth/OAuth.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/restassured/OAuth1/OAuth2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/restassured/OAuth1/OAuth.java" />
       </list>
     </option>
   </component>
@@ -245,7 +262,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="restassured" type="462c0819:PsiDirectoryNode" />
-              <item name="postdeleteput" type="462c0819:PsiDirectoryNode" />
+              <item name="OAuth1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -255,10 +272,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575817591359" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575829131951" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="restassured.OAuth1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -276,8 +296,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Post_Put_Delete.putExample">
-    <configuration name="BasicAuthentication.testResponseCode" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.OAuth.postTweetAndDeleteTweet">
+    <configuration name="BasicAuthentication.basicAuthentication" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumDemoProject" />
       <extension name="coverage">
         <pattern>
@@ -287,7 +307,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="restassured.basicAuthentication" />
       <option name="MAIN_CLASS_NAME" value="restassured.basicAuthentication.BasicAuthentication" />
-      <option name="METHOD_NAME" value="testResponseCode" />
+      <option name="METHOD_NAME" value="basicAuthentication" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -295,17 +315,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetRequest.testResponseBody1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BasicAuthentication.basicAuthentication1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumDemoProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="restassured.getData.*" />
+          <option name="PATTERN" value="restassured.basicAuthentication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="restassured.getData" />
-      <option name="MAIN_CLASS_NAME" value="restassured.getData.GetRequest" />
-      <option name="METHOD_NAME" value="testResponseBody1" />
+      <option name="PACKAGE_NAME" value="restassured.basicAuthentication" />
+      <option name="MAIN_CLASS_NAME" value="restassured.basicAuthentication.BasicAuthentication" />
+      <option name="METHOD_NAME" value="basicAuthentication1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -313,17 +333,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Post_Put_Delete.deleteExample" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OAuth.postTweet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumDemoProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="restassured.postdeleteput.*" />
+          <option name="PATTERN" value="restassured.OAuth1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="restassured.postdeleteput" />
-      <option name="MAIN_CLASS_NAME" value="restassured.postdeleteput.Post_Put_Delete" />
-      <option name="METHOD_NAME" value="deleteExample" />
+      <option name="PACKAGE_NAME" value="restassured.OAuth1" />
+      <option name="MAIN_CLASS_NAME" value="restassured.OAuth1.OAuth" />
+      <option name="METHOD_NAME" value="postTweet" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -331,17 +351,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Post_Put_Delete.postExample" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OAuth.postTweetAndDeleteTweet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumDemoProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="restassured.postdeleteput.*" />
+          <option name="PATTERN" value="restassured.OAuth1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="restassured.postdeleteput" />
-      <option name="MAIN_CLASS_NAME" value="restassured.postdeleteput.Post_Put_Delete" />
-      <option name="METHOD_NAME" value="postExample" />
+      <option name="PACKAGE_NAME" value="restassured.OAuth1" />
+      <option name="MAIN_CLASS_NAME" value="restassured.OAuth1.OAuth" />
+      <option name="METHOD_NAME" value="postTweetAndDeleteTweet" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -349,17 +369,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Post_Put_Delete.putExample" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OAuth.postTweetAndVerify" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumDemoProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="restassured.postdeleteput.*" />
+          <option name="PATTERN" value="restassured.OAuth1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="restassured.postdeleteput" />
-      <option name="MAIN_CLASS_NAME" value="restassured.postdeleteput.Post_Put_Delete" />
-      <option name="METHOD_NAME" value="putExample" />
+      <option name="PACKAGE_NAME" value="restassured.OAuth1" />
+      <option name="MAIN_CLASS_NAME" value="restassured.OAuth1.OAuth" />
+      <option name="METHOD_NAME" value="postTweetAndVerify" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -368,19 +388,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.GetRequest.testResponseBody1" />
-      <item itemvalue="TestNG.BasicAuthentication.testResponseCode" />
-      <item itemvalue="TestNG.Post_Put_Delete.postExample" />
-      <item itemvalue="TestNG.Post_Put_Delete.deleteExample" />
-      <item itemvalue="TestNG.Post_Put_Delete.putExample" />
+      <item itemvalue="TestNG.BasicAuthentication.basicAuthentication" />
+      <item itemvalue="TestNG.BasicAuthentication.basicAuthentication1" />
+      <item itemvalue="TestNG.OAuth.postTweet" />
+      <item itemvalue="TestNG.OAuth.postTweetAndVerify" />
+      <item itemvalue="TestNG.OAuth.postTweetAndDeleteTweet" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Post_Put_Delete.putExample" />
-        <item itemvalue="TestNG.Post_Put_Delete.deleteExample" />
-        <item itemvalue="TestNG.Post_Put_Delete.postExample" />
-        <item itemvalue="TestNG.BasicAuthentication.testResponseCode" />
-        <item itemvalue="TestNG.GetRequest.testResponseBody1" />
+        <item itemvalue="TestNG.OAuth.postTweetAndDeleteTweet" />
+        <item itemvalue="TestNG.OAuth.postTweetAndVerify" />
+        <item itemvalue="TestNG.OAuth.postTweet" />
+        <item itemvalue="TestNG.BasicAuthentication.basicAuthentication1" />
+        <item itemvalue="TestNG.BasicAuthentication.basicAuthentication" />
       </list>
     </recent_temporary>
   </component>
@@ -416,46 +436,53 @@
       <option name="project" value="LOCAL" />
       <updated>1575771937033</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="basic put post delete">
+      <created>1575817700672</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575817700672</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExcelTest_test - 2019.11.27 at 11h 04m 47s.xml">
-      <configuration name="ExcelTest.test" configurationId="TestNG" />
+    <history-entry file="OAuth_postTweet - 2019.12.08 at 18h 04m 52s.xml">
+      <configuration name="OAuth.postTweet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExcelTest_test - 2019.11.27 at 11h 21m 17s.xml">
-      <configuration name="ExcelTest.test" configurationId="TestNG" />
+    <history-entry file="OAuth_postTweet - 2019.12.08 at 18h 31m 57s.xml">
+      <configuration name="OAuth.postTweet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExcelTest_test - 2019.11.27 at 11h 24m 18s.xml">
-      <configuration name="ExcelTest.test" configurationId="TestNG" />
+    <history-entry file="OAuth_postTweetAndVerify - 2019.12.08 at 18h 36m 13s.xml">
+      <configuration name="OAuth.postTweetAndVerify" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExcelTest_test - 2019.11.27 at 11h 24m 29s.xml">
-      <configuration name="ExcelTest.test" configurationId="TestNG" />
+    <history-entry file="OAuth_postTweetAndVerify - 2019.12.08 at 18h 41m 38s.xml">
+      <configuration name="OAuth.postTweetAndVerify" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetRequest_testResponseCode - 2019.12.08 at 01h 08m 52s.xml">
-      <configuration name="GetRequest.testResponseCode" configurationId="TestNG" />
+    <history-entry file="OAuth_postTweetAndDeleteTweet - 2019.12.08 at 19h 10m 26s.xml">
+      <configuration name="OAuth.postTweetAndDeleteTweet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetRequest_testResponseCode - 2019.12.08 at 01h 09m 06s.xml">
-      <configuration name="GetRequest.testResponseCode" configurationId="TestNG" />
+    <history-entry file="OAuth_postTweetAndDeleteTweet - 2019.12.08 at 19h 10m 35s.xml">
+      <configuration name="OAuth.postTweetAndDeleteTweet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetRequest_testResponseBody - 2019.12.08 at 01h 10m 54s.xml">
-      <configuration name="GetRequest.testResponseBody" configurationId="TestNG" />
+    <history-entry file="OAuth_postTweetAndDeleteTweet - 2019.12.08 at 19h 11m 09s.xml">
+      <configuration name="OAuth.postTweetAndDeleteTweet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetRequest_testResponseBody - 2019.12.08 at 01h 13m 11s.xml">
-      <configuration name="GetRequest.testResponseBody" configurationId="TestNG" />
+    <history-entry file="OAuth_postTweetAndDeleteTweet - 2019.12.08 at 19h 12m 01s.xml">
+      <configuration name="OAuth.postTweetAndDeleteTweet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Post_Put_Delete_postExample - 2019.12.08 at 03h 24m 48s.xml">
-      <configuration name="Post_Put_Delete.postExample" configurationId="TestNG" />
+    <history-entry file="OAuth_postTweetAndDeleteTweet - 2019.12.08 at 19h 14m 18s.xml">
+      <configuration name="OAuth.postTweetAndDeleteTweet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Post_Put_Delete_deleteExample - 2019.12.08 at 16h 03m 26s.xml">
-      <configuration name="Post_Put_Delete.deleteExample" configurationId="TestNG" />
+    <history-entry file="OAuth_postTweetAndDeleteTweet - 2019.12.08 at 19h 15m 11s.xml">
+      <configuration name="OAuth.postTweetAndDeleteTweet" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15522175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -463,13 +490,13 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32465923" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32961586" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19454771" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32961586" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -489,7 +516,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing" />
+    <MESSAGE value="basic put post delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic put post delete" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseClassChromeBrowser.java">
@@ -561,19 +589,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppiumDemoProject.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-879" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/restassured/getData/GetRequest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/basicAuthentication/BasicAuthentication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/restassured/Get/GetRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-119">
@@ -588,17 +604,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/postdeleteput/Post_Put_Delete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        <state relative-caret-position="1200">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/postdeleteput/Post_Put_Delete.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/basicAuthentication/BasicAuthentication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="75" column="48" lean-forward="true" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+        <state relative-caret-position="585">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/basicAuthentication/BaseAuthentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="97" selection-start-line="13" selection-start-column="97" selection-end-line="13" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/OAuth1/OAuth2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppiumDemoProject.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="144" column="21" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar!/io/restassured/specification/AuthenticationSpecification.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0-sources.jar!/io/restassured/specification/AuthenticationSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="149" column="25" selection-start-line="149" selection-start-column="25" selection-end-line="149" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/OAuth1/OAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="98" column="44" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
