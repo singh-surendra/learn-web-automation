@@ -7,7 +7,7 @@ import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class OAuth {
+public class TwitterDemo {
 
     /*
 
@@ -94,8 +94,7 @@ public class OAuth {
                         "Q6sHHHsp8i2Yv33WXXntCKxRXkvjP5v19jufPHnjbXr3l7qo3J",
                         "1203704968986972160-0JqYVKeN0xyRkRcd3B7Fk8LDyfc29k",
                         "0rPKdMUmit39wAXCfCjHwdXC6dZ2F0nuYQrD1vOjD510d")
-                .post("https://api.twitter.com/1.1/statuses/destroy/:id.json?id="+tweetID+"");
-
+        .post("https://api.twitter.com/1.1/statuses/destroy/"+tweetID+".json");
         System.out.println("Tweet deleted");
     }
 
