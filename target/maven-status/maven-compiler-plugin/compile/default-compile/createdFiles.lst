@@ -1,5 +1,6 @@
 utils/BaseClass.class
 utils/ExtentReporterNG.class
+driverbase/BaseTestWeb.class
 utils/Listeners.class
 utils/TestData.class
 utils/Utilities.class

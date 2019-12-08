@@ -69,5 +69,20 @@
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:jetty-repacked:9.4.12.v20180830" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.19" level="project" />
+    <orderEntry type="library" name="Maven: io.rest-assured:rest-assured:4.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy:2.5.6" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-xml:2.5.6" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest:2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-library:2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.ccil.cowan.tagsoup:tagsoup:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: io.rest-assured:json-path:4.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-json:2.5.6" level="project" />
+    <orderEntry type="library" name="Maven: io.rest-assured:rest-assured-common:4.0.0" level="project" />
+    <orderEntry type="library" name="Maven: io.rest-assured:xml-path:4.0.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.2.12" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-osgi:2.2.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.sling:org.apache.sling.javax.activation:0.1.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.activation:activation:1.1.1" level="project" />
   </component>
 </module>
