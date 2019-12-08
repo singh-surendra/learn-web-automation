@@ -52,19 +52,10 @@ public class Post_Put_Delete {
 
         RequestSpecification request = RestAssured.given();
 
-        request.header("Content-Type","application/json");
-
-        JSONObject jsonObject = new JSONObject();
-        jsonObject.put("id","1001");
-        jsonObject.put("title","new ttle");
-        jsonObject.put("author","Surendra Singh");
-
-        request.body(jsonObject.toJSONString());
-
-        Response  response = request.post("http://localhost:3000/posts/");
+        Response  response = request.delete("http://localhost:3000/posts/19");
         int code = response.getStatusCode();
 
-        Assert.assertEquals(code, 201);
+        Assert.assertEquals(code, 200);
 
     }
 
@@ -79,15 +70,15 @@ public class Post_Put_Delete {
 
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("id","1001");
-        jsonObject.put("title","new ttle");
-        jsonObject.put("author","Surendra Singh");
+        jsonObject.put("title","new title");
+        jsonObject.put("author","Surendra Singh Updated record after put");
 
         request.body(jsonObject.toJSONString());
 
-        Response  response = request.post("http://localhost:3000/posts/");
+        Response  response = request.put("http://localhost:3000/posts/1001");
         int code = response.getStatusCode();
 
-        Assert.assertEquals(code, 201);
+        Assert.assertEquals(code, 200);
 
     }
 

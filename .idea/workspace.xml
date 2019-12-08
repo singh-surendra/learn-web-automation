@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca2b57c-c0bf-4cb8-bf03-6b64f4c8ffd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/basicAuthentication/BasicAuthentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/postdeleteput/Post_Put_Delete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppiumDemoProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AppiumDemoProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restassured/Get/GetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restassured/Get/GetRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restassured/getData/postData/PostRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restassured/postdeleteput/Post_Delete_Put.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/BaseClassChromeBrowser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/BaseClassRealDevice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/EcommerceTC1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restassured/postdeleteput/Post_Put_Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restassured/postdeleteput/Post_Put_Delete.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,14 +64,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="40" />
-          <entry key="java" value="787" />
+          <entry key="java" value="828" />
           <entry key="txt" value="7" />
           <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="787" />
+          <entry key="JAVA" value="828" />
           <entry key="PLAIN_TEXT" value="47" />
           <entry key="XML" value="10" />
         </counts>
@@ -124,8 +115,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/restassured/postdeleteput/Post_Put_Delete.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+            <state relative-caret-position="323">
+              <caret line="75" column="48" lean-forward="true" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -264,7 +255,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575771916945" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575817591359" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -285,7 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Post_Put_Delete.postExample">
+  <component name="RunManager" selected="TestNG.Post_Put_Delete.putExample">
     <configuration name="BasicAuthentication.testResponseCode" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumDemoProject" />
       <extension name="coverage">
@@ -297,24 +288,6 @@
       <option name="PACKAGE_NAME" value="restassured.basicAuthentication" />
       <option name="MAIN_CLASS_NAME" value="restassured.basicAuthentication.BasicAuthentication" />
       <option name="METHOD_NAME" value="testResponseCode" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetRequest.testResponseBody" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AppiumDemoProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restassured.getData.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restassured.getData" />
-      <option name="MAIN_CLASS_NAME" value="restassured.getData.GetRequest" />
-      <option name="METHOD_NAME" value="testResponseBody" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -340,17 +313,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetRequest.testResponseCode" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Post_Put_Delete.deleteExample" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumDemoProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="restassured.getData.*" />
+          <option name="PATTERN" value="restassured.postdeleteput.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="restassured.getData" />
-      <option name="MAIN_CLASS_NAME" value="restassured.getData.GetRequest" />
-      <option name="METHOD_NAME" value="testResponseCode" />
+      <option name="PACKAGE_NAME" value="restassured.postdeleteput" />
+      <option name="MAIN_CLASS_NAME" value="restassured.postdeleteput.Post_Put_Delete" />
+      <option name="METHOD_NAME" value="deleteExample" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -376,20 +349,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Post_Put_Delete.putExample" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumDemoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restassured.postdeleteput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restassured.postdeleteput" />
+      <option name="MAIN_CLASS_NAME" value="restassured.postdeleteput.Post_Put_Delete" />
+      <option name="METHOD_NAME" value="putExample" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.GetRequest.testResponseCode" />
-      <item itemvalue="TestNG.GetRequest.testResponseBody" />
       <item itemvalue="TestNG.GetRequest.testResponseBody1" />
       <item itemvalue="TestNG.BasicAuthentication.testResponseCode" />
       <item itemvalue="TestNG.Post_Put_Delete.postExample" />
+      <item itemvalue="TestNG.Post_Put_Delete.deleteExample" />
+      <item itemvalue="TestNG.Post_Put_Delete.putExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Post_Put_Delete.putExample" />
+        <item itemvalue="TestNG.Post_Put_Delete.deleteExample" />
         <item itemvalue="TestNG.Post_Put_Delete.postExample" />
         <item itemvalue="TestNG.BasicAuthentication.testResponseCode" />
         <item itemvalue="TestNG.GetRequest.testResponseBody1" />
-        <item itemvalue="TestNG.GetRequest.testResponseBody" />
-        <item itemvalue="TestNG.GetRequest.testResponseCode" />
       </list>
     </recent_temporary>
   </component>
@@ -418,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575761209253</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="testing">
+      <created>1575771937033</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575771937033</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -448,6 +446,9 @@
     </history-entry>
     <history-entry file="Post_Put_Delete_postExample - 2019.12.08 at 03h 24m 48s.xml">
       <configuration name="Post_Put_Delete.postExample" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Post_Put_Delete_deleteExample - 2019.12.08 at 16h 03m 26s.xml">
+      <configuration name="Post_Put_Delete.deleteExample" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -596,8 +597,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/restassured/postdeleteput/Post_Put_Delete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+        <state relative-caret-position="323">
+          <caret line="75" column="48" lean-forward="true" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
