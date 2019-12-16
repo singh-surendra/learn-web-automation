@@ -20,7 +20,7 @@ public class ExtentReporterNG implements IReporter {
 
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
 
-        htmlReporter = new ExtentHtmlReporter("/Users/surendra.singh/IdeaProjects/GeneralStore/src/main/java/reports/htmlReport.html");
+        htmlReporter = new ExtentHtmlReporter("/Users/surendra.singh/Documents/Learning/learn-web-automation/src/main/java/reports/htmlReport.html");
         extent = new ExtentReports();
 
         extent.attachReporter(htmlReporter);

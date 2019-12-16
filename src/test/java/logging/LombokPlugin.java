@@ -10,6 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import ru.yandex.qatools.allure.annotations.Title;
 
@@ -31,9 +32,24 @@ public class LombokPlugin extends BaseTestWeb {
                 log.info("Test");
 
         driver.get("https://github.com/mplushnikov/lombok-intellij-plugin");
+//        Assert.assertEquals("test",driver.getTitle());
 
 
     }
+
+
+    @Title("Test12")
+    @Test
+    public void test2ForFailing(){
+
+        log.info("Test");
+
+        driver.get("https://github.com/mplushnikov/lombok-intellij-plugin");
+        Assert.assertEquals("test",driver.getTitle());
+
+
+    }
+
 
 
 

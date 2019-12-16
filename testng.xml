@@ -10,12 +10,13 @@
         <parameter name="URL" value="personalloan.com"/>
         <classes>
             <class name="logging.LombokPlugin">
-                <methods>
-                    <!--<include name="testCaseForFailing"/>-->
-                    <!--<include name="helloTest"/>-->
-                    <include name="test1"/>
+                <!--<methods>-->
+                    <!--&lt;!&ndash;<include name="testCaseForFailing"/>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<include name="helloTest"/>&ndash;&gt;-->
+                    <!--<include name="test1"/>-->
+                    <!--<include name="test2"/>-->
 
-                </methods>
+                <!--</methods>-->
             </class>
         </classes>
     </test>
