@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca2b57c-c0bf-4cb8-bf03-6b64f4c8ffd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/logging/LombokPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppiumDemoProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AppiumDemoProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/driverbase/BaseTestWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driverbase/BaseTestWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restassured/OAuth1/TwitterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restassured/OAuth1/TwitterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/logging/LombokPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/logging/LombokPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,47 +61,52 @@
     <session id="1071431675">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
           <entry key="gitignore" value="40" />
-          <entry key="java" value="3051" />
-          <entry key="txt" value="63" />
-          <entry key="xml" value="15" />
+          <entry key="java" value="3172" />
+          <entry key="txt" value="82" />
+          <entry key="xml" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3051" />
-          <entry key="PLAIN_TEXT" value="115" />
-          <entry key="XML" value="15" />
+          <entry key="JAVA" value="3172" />
+          <entry key="PLAIN_TEXT" value="134" />
+          <entry key="XML" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="6" />
           <entry key="gitignore" value="2" />
+          <entry key="html" value="1" />
           <entry key="iml" value="2" />
-          <entry key="java" value="22" />
+          <entry key="java" value="29" />
           <entry key="png" value="1" />
-          <entry key="xml" value="6" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
+          <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="22" />
+          <entry key="JAVA" value="29" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="XML" value="6" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -111,41 +118,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/logging/LombokPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="6" />
+            <state relative-caret-position="107">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.10/lombok-1.18.10-sources.jar!/lombok/extern/java/Log.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy/2.5.6/groovy-2.5.6.jar!/groovy/util/logging/Slf4j.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="157" column="35" selection-start-line="157" selection-start-column="30" selection-end-line="157" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -163,19 +152,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/ExcelTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/driverbase/BaseTestWeb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            <state relative-caret-position="195">
+              <caret line="16" column="147" selection-start-line="16" selection-start-column="147" selection-end-line="16" selection-end-column="147" />
             </state>
           </provider>
         </entry>
@@ -183,8 +163,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/ExtentReporterNG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="20" column="100" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="100" />
+            <state relative-caret-position="90">
+              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/Utilities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/TestData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/Listeners.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -202,6 +212,10 @@
     <findStrings>
       <find>server</find>
       <find>slf4j</find>
+      <find>simple</find>
+      <find>lombok</find>
+      <find>sure</find>
+      <find>extent</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -229,9 +243,10 @@
         <option value="$PROJECT_DIR$/src/test/java/restassured/OAuth1/OAuth.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/OAuth2/Oauth2Practice.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/OAuth1/TwitterDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/driverbase/BaseTestWeb.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/logging/LombokPlugin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/driverbase/BaseTestWeb.java" />
       </list>
     </option>
   </component>
@@ -247,28 +262,13 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="AppiumDemoProject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="AppiumDemoProject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="AppiumDemoProject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="AppiumDemoProject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="test-automation-learn-webProject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -277,7 +277,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,24 +294,31 @@
               <item name="AppiumDemoProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn-web-automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AppiumDemoProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn-web-automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppiumDemoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-web-automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576518740187" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576527421909" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -320,8 +327,8 @@
       <recent name="restassured.OAuth1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -505,46 +512,52 @@
       <option name="project" value="LOCAL" />
       <updated>1576251445811</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="playing with lombok">
+      <created>1576518934986</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576518934986</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Oauth2Practice_generateAccessTokenAndPass - 2019.12.08 at 20h 21m 14s.xml">
-      <configuration name="Oauth2Practice.generateAccessTokenAndPass" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Oauth2Practice_generateAccessTokenAndPass - 2019.12.08 at 20h 30m 21s.xml">
-      <configuration name="Oauth2Practice.generateAccessTokenAndPass" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Oauth2Practice_generateAccessTokenAndPass - 2019.12.08 at 20h 30m 56s.xml">
-      <configuration name="Oauth2Practice.generateAccessTokenAndPass" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Oauth2Practice_accessInvalidAPI - 2019.12.08 at 20h 37m 06s.xml">
-      <configuration name="Oauth2Practice.accessInvalidAPI" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Oauth2Practice_accessInvalidAPI - 2019.12.08 at 20h 38m 35s.xml">
-      <configuration name="Oauth2Practice.accessInvalidAPI" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="restassured_OAuth2_in_AppiumDemoProject - 2019.12.08 at 20h 39m 05s.xml">
-      <configuration name="restassured.OAuth2 in AppiumDemoProject" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Oauth2Practice - 2019.12.08 at 20h 39m 19s.xml">
-      <configuration name="Oauth2Practice" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LombokPlugin_test1 - 2019.12.16 at 18h 31m 42s.xml">
-      <configuration name="LombokPlugin.test1" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LombokPlugin_test1 - 2019.12.16 at 18h 32m 35s.xml">
       <configuration name="LombokPlugin.test1" configurationId="TestNG" />
     </history-entry>
     <history-entry file="LombokPlugin_test1 - 2019.12.16 at 18h 40m 00s.xml">
       <configuration name="LombokPlugin.test1" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LombokPlugin_test1 - 2019.12.16 at 19h 12m 47s.xml">
+      <configuration name="LombokPlugin.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LombokPlugin_test1 - 2019.12.16 at 20h 59m 40s.xml">
+      <configuration name="LombokPlugin.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LombokPlugin_test1 - 2019.12.16 at 21h 00m 40s.xml">
+      <configuration name="LombokPlugin.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LombokPlugin_test1 - 2019.12.16 at 21h 04m 39s.xml">
+      <configuration name="LombokPlugin.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LombokPlugin_test1 - 2019.12.16 at 21h 08m 45s.xml">
+      <configuration name="LombokPlugin.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LombokPlugin_test1 - 2019.12.16 at 21h 09m 24s.xml">
+      <configuration name="LombokPlugin.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LombokPlugin_test1 - 2019.12.16 at 21h 09m 49s.xml">
+      <configuration name="LombokPlugin.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LombokPlugin_test1 - 2019.12.16 at 21h 13m 00s.xml">
+      <configuration name="LombokPlugin.test1" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16165951" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16380544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -558,7 +571,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.0842627" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37918216" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32961586" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32961586" />
@@ -582,7 +595,8 @@
     <MESSAGE value="OAuth1.0" />
     <MESSAGE value="OAuth2.0" />
     <MESSAGE value="simple commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple commit" />
+    <MESSAGE value="playing with lombok" />
+    <option name="LAST_COMMIT_MESSAGE" value="playing with lombok" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseClassChromeBrowser.java">
@@ -606,13 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/BaseClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
         </state>
       </provider>
     </entry>
@@ -702,16 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/OAuth2/Oauth2Practice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/ExcelTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -719,24 +716,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/ExtentReporterNG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="20" column="100" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar!/lombok/extern/java/Log.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/driverbase/BaseTestWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -749,22 +732,97 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.10/lombok-1.18.10-sources.jar!/lombok/extern/java/Log.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="312">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.10/lombok-1.18.10-sources.jar!/lombok/extern/slf4j/Slf4j.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
           <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="157" column="35" selection-start-line="157" selection-start-column="30" selection-end-line="157" selection-end-column="35" />
+        <state relative-caret-position="139">
+          <caret line="108" column="30" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/BaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/global.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/reports/htmlReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/OAuth2/Oauth2Practice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/ExtentReporterNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/TestData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Listeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/driverbase/BaseTestWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="147" selection-start-line="16" selection-start-column="147" selection-end-line="16" selection-end-column="147" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/logging/LombokPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="6" />
+        <state relative-caret-position="107">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

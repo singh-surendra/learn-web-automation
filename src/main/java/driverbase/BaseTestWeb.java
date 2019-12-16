@@ -14,7 +14,8 @@ public class BaseTestWeb {
     public WebDriver setUpDriver() {
 
         try {
-            System.setProperty("webdriver.chrome.driver", "/Users/surendra.singh/IdeaProjects/learn-web-autoamtion/src/main/resources/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "/Users/surendra.singh/Documents/Learning/learn-web-automation/src/main/resources/chromedriver2");
+
             driver = new ChromeDriver();
             driver.manage().window().maximize();
         } catch (Exception exp) {

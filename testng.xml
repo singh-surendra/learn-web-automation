@@ -9,11 +9,11 @@
     <test name="Personal loan">
         <parameter name="URL" value="personalloan.com"/>
         <classes>
-            <class name="tests.EcommerceTC1">
+            <class name="logging.LombokPlugin">
                 <methods>
                     <!--<include name="testCaseForFailing"/>-->
                     <!--<include name="helloTest"/>-->
-                    <include name="testWithMultipleDataSet"/>
+                    <include name="test1"/>
 
                 </methods>
             </class>
