@@ -47,7 +47,6 @@ public class LombokPlugin extends BaseTestWeb {
         driver.get("https://github.com/mplushnikov/lombok-intellij-plugin");
         Assert.assertEquals("test",driver.getTitle());
 
-
     }
 
 

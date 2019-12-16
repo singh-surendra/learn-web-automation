@@ -25,7 +25,7 @@ public class Listeners implements ITestListener {
 
         String testName = iTestResult.getName();
         try {
-            BaseClass.getScreenshot(testName);
+            TakeScreenshot.getScreenshot(testName);
         } catch (IOException e) {
             e.printStackTrace();
         }

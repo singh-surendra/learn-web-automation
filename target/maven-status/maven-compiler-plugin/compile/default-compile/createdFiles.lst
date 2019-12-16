@@ -1,6 +1,7 @@
+driverbase/BaseTestWeb.class
+utils/Utilities.class
 utils/BaseClass.class
 utils/ExtentReporterNG.class
-driverbase/BaseTestWeb.class
+utils/TakeScreenshot.class
 utils/Listeners.class
 utils/TestData.class
-utils/Utilities.class
