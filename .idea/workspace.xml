@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca2b57c-c0bf-4cb8-bf03-6b64f4c8ffd6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/logging/LombokPlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppiumDemoProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AppiumDemoProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driverbase/BaseTestWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driverbase/BaseTestWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restassured/OAuth1/TwitterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restassured/OAuth1/TwitterDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,44 +59,47 @@
     <session id="1071431675">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
           <entry key="gitignore" value="40" />
-          <entry key="java" value="2842" />
-          <entry key="txt" value="50" />
-          <entry key="xml" value="12" />
+          <entry key="java" value="3051" />
+          <entry key="txt" value="63" />
+          <entry key="xml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2842" />
-          <entry key="PLAIN_TEXT" value="102" />
-          <entry key="XML" value="12" />
+          <entry key="JAVA" value="3051" />
+          <entry key="PLAIN_TEXT" value="115" />
+          <entry key="XML" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="4" />
+          <entry key="class" value="6" />
           <entry key="gitignore" value="2" />
           <entry key="iml" value="2" />
-          <entry key="java" value="16" />
-          <entry key="xml" value="5" />
+          <entry key="java" value="22" />
+          <entry key="png" value="1" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="4" />
+          <entry key="CLASS" value="6" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="16" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="22" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -102,12 +110,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/restassured/OAuth1/TwitterDemo.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/logging/LombokPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="99" selection-start-line="99" selection-end-line="99" />
+            <state relative-caret-position="163">
+              <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,14 +123,68 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.10/lombok-1.18.10-sources.jar!/lombok/extern/java/Log.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy/2.5.6/groovy-2.5.6.jar!/groovy/util/logging/Slf4j.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="157" column="35" selection-start-line="157" selection-start-column="30" selection-end-line="157" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/restassured/OAuth2/Oauth2Practice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            <state relative-caret-position="570">
+              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/ExcelTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/driverbase/BaseTestWeb.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/ExtentReporterNG.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="20" column="100" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="100" />
             </state>
           </provider>
         </entry>
@@ -139,6 +201,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>server</find>
+      <find>slf4j</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,7 +218,6 @@
         <option value="$PROJECT_DIR$/src/main/java/driverholder/BaseTestWeb.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/ExcelTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/driverbase/BaseTestWeb.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/getData/GetRequest.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/Get/GetRequest.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/postdeleteput/Post_Delete_Put.java" />
@@ -163,10 +225,13 @@
         <option value="$PROJECT_DIR$/src/test/java/restassured/basicAuthentication/BaseAuthentication.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/basicAuthentication/BasicAuthentication.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/OAuth/OAuth.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/OAuth1/OAuth2.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/OAuth1/OAuth.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/OAuth2/Oauth2Practice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/restassured/OAuth1/TwitterDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/driverbase/BaseTestWeb.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/logging/LombokPlugin.java" />
       </list>
     </option>
   </component>
@@ -203,7 +268,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -220,6 +285,24 @@
               <item name="AppiumDemoProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn-web-automation" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AppiumDemoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-web-automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppiumDemoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-web-automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppiumDemoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-web-automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -228,8 +311,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575885272030" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576518740187" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -252,7 +336,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Oauth2Practice">
+  <component name="RunManager" selected="TestNG.LombokPlugin.test1">
     <configuration name="restassured.OAuth2 in AppiumDemoProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AppiumDemoProject" />
       <extension name="coverage">
@@ -263,6 +347,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="restassured.OAuth2" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LombokPlugin.test1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumDemoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="logging.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="logging" />
+      <option name="MAIN_CLASS_NAME" value="logging.LombokPlugin" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -319,38 +421,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Oauth2Practice.test1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AppiumDemoProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restassured.OAuth2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restassured.OAuth2" />
-      <option name="MAIN_CLASS_NAME" value="restassured.OAuth2.Oauth2Practice" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.Oauth2Practice.test1" />
       <item itemvalue="TestNG.Oauth2Practice.generateAccessTokenAndPass" />
       <item itemvalue="TestNG.Oauth2Practice.accessInvalidAPI" />
       <item itemvalue="JUnit.restassured.OAuth2 in AppiumDemoProject" />
       <item itemvalue="TestNG.Oauth2Practice" />
+      <item itemvalue="TestNG.LombokPlugin.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LombokPlugin.test1" />
         <item itemvalue="TestNG.Oauth2Practice" />
         <item itemvalue="JUnit.restassured.OAuth2 in AppiumDemoProject" />
         <item itemvalue="TestNG.Oauth2Practice.accessInvalidAPI" />
         <item itemvalue="TestNG.Oauth2Practice.generateAccessTokenAndPass" />
-        <item itemvalue="TestNG.Oauth2Practice.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -414,19 +498,17 @@
       <option name="project" value="LOCAL" />
       <updated>1575885279412</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="simple commit">
+      <created>1576251445811</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576251445811</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OAuth_postTweetAndDeleteTweet - 2019.12.08 at 19h 25m 46s.xml">
-      <configuration name="OAuth.postTweetAndDeleteTweet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OAuth_postTweetAndDeleteTweet - 2019.12.08 at 19h 26m 34s.xml">
-      <configuration name="OAuth.postTweetAndDeleteTweet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Oauth2Practice_test1 - 2019.12.08 at 20h 11m 34s.xml">
-      <configuration name="Oauth2Practice.test1" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Oauth2Practice_generateAccessTokenAndPass - 2019.12.08 at 20h 21m 14s.xml">
       <configuration name="Oauth2Practice.generateAccessTokenAndPass" configurationId="TestNG" />
     </history-entry>
@@ -448,11 +530,21 @@
     <history-entry file="Oauth2Practice - 2019.12.08 at 20h 39m 19s.xml">
       <configuration name="Oauth2Practice" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LombokPlugin_test1 - 2019.12.16 at 18h 31m 42s.xml">
+      <configuration name="LombokPlugin.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LombokPlugin_test1 - 2019.12.16 at 18h 32m 35s.xml">
+      <configuration name="LombokPlugin.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LombokPlugin_test1 - 2019.12.16 at 18h 40m 00s.xml">
+      <configuration name="LombokPlugin.test1" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15522175" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16165951" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -461,15 +553,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38909543" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38909543" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19454771" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.0842627" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32961586" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32961586" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -489,7 +581,8 @@
     <MESSAGE value="basic put post delete" />
     <MESSAGE value="OAuth1.0" />
     <MESSAGE value="OAuth2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="OAuth2.0" />
+    <MESSAGE value="simple commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseClassChromeBrowser.java">
@@ -523,23 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ExcelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/driverbase/BaseTestWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar!/io/restassured/RestAssured.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -562,20 +638,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/postdeleteput/Post_Delete_Put.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="6" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/postdeleteput/Post_Delete_Put.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/restassured/postdeleteput/Post_Put_Delete.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -583,9 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -593,24 +657,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="97" selection-start-line="13" selection-start-column="97" selection-end-line="13" selection-end-column="97" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/OAuth1/OAuth2.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/OAuth1/OAuth2.java" />
     <entry file="file://$PROJECT_DIR$/AppiumDemoProject.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="144" column="21" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar!/io/restassured/specification/AuthenticationSpecification.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -633,16 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/OAuth1/TwitterDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -650,10 +692,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/screenshotstestWithMultipleDataSet.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/OAuth1/TwitterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/restassured/OAuth2/Oauth2Practice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        <state relative-caret-position="570">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ExcelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/ExtentReporterNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="20" column="100" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar!/lombok/extern/java/Log.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/driverbase/BaseTestWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy/2.5.6/groovy-2.5.6.jar!/groovy/util/logging/Slf4j.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.10/lombok-1.18.10-sources.jar!/lombok/extern/java/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="157" column="35" selection-start-line="157" selection-start-column="30" selection-end-line="157" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/logging/LombokPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

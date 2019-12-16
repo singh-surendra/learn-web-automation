@@ -16,6 +16,7 @@ public class BaseTestWeb {
         try {
             System.setProperty("webdriver.chrome.driver", "/Users/surendra.singh/IdeaProjects/learn-web-autoamtion/src/main/resources/chromedriver");
             driver = new ChromeDriver();
+            driver.manage().window().maximize();
         } catch (Exception exp) {
 
             System.out.println("Cause is :" + exp.getCause());
