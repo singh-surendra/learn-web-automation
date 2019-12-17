@@ -16,7 +16,7 @@ public class SimpleTests extends BaseTestWeb {
 
     HomePage homePage = new HomePage();
 
-    @Test(groups = "SMOKE")
+    @Test(groups = {"SMOKE1"})
     @Title("Test home page loading")
     public void testHomepage() {
 
@@ -24,16 +24,16 @@ public class SimpleTests extends BaseTestWeb {
 
     }
 
-    @Test(groups = "SMOKE")
+    @Test(groups = {"SMOKE1"})
     @Title("Test home page loading")
     public void verifyPageTitle() {
         homePage.openHomePage();
         System.out.println(homePage.getPageTitle());
     }
 
-    @Test(groups = "SMOKE")
+    @Test(groups = {"SMOKE"})
     @Title("Test home page loading")
-    public void verifyScreenshot() {
+    public void verifyScreenshots() {
         homePage.openHomePage();
         Assert.assertEquals("test",homePage.getPageTitle());
     }

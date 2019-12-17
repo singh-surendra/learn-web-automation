@@ -50,7 +50,7 @@ public class LombokPlugin extends BaseTestWeb {
     }
 
     @Title("Test12")
-    @Test(groups = "SMOKE")
+    @Test(groups = {"SMOKE1"})
     public void test3(){
 
         log.info("Test");

@@ -19,8 +19,10 @@ public class ExtentReporterNG implements IReporter {
     ExtentHtmlReporter htmlReporter;
 
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
+        String userDirPath = System.getProperty("user.dir");
 
-        htmlReporter = new ExtentHtmlReporter("/Users/surendra.singh/Documents/Learning/learn-web-automation/src/main/java/reports/htmlReport.html");
+//        htmlReporter = new ExtentHtmlReporter("/Users/surendra.singh/Documents/Learning/learn-web-automation/src/main/java/reports/htmlReport.html");
+        htmlReporter = new ExtentHtmlReporter(userDirPath+"/Reports/htmlReport1.html");
         extent = new ExtentReports();
 
         extent.attachReporter(htmlReporter);
