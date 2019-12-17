@@ -40,4 +40,17 @@ public class SimpleTests extends BaseTestWeb {
 
 
 
+    @Test
+    public void test1223(){
+
+        System.out.println(System.getProperty("os.name"));
+    }
+
+
+    @Test
+    public void testSignUpLink() throws InterruptedException {
+        homePage.clickSignUp();
+    }
+
+
 }

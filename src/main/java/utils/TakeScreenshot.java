@@ -7,17 +7,33 @@ import org.openqa.selenium.TakesScreenshot;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.LocalDateTime;
 
 public class TakeScreenshot extends BaseTestWeb {
 
 
-    public static void getScreenshot(String testName) throws IOException
-    {
-        System.out.println("Capturing screenshot");
-        String path = "/Users/surendra.singh/Documents/Learning/learn-web-automation/src/main/resources/"+testName+".png";
-        File scrfile=	((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(scrfile,new File(path));
+    public static String captureScreenshot(String testName) {
+
+        String screenshotPath = "";
+        try {
+
+            System.out.println("Capturing screenshot");
+            String workingDir = System.getProperty("user.dir");
+
+            if (System.getProperty("os.name").toLowerCase().contains("win")) {
+                screenshotPath = workingDir + "\\Screenshots\\" + testName + "_" + LocalDateTime.now() + ".png";
+            } else if (System.getProperty("os.name").toLowerCase().contains("mac")) {
+                screenshotPath = workingDir + "/Screenshots/" + testName + "_" + LocalDateTime.now() + ".png";
+            }
+
+            File scrfile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+            FileUtils.copyFile(scrfile, new File(screenshotPath));
+
+        } catch (Exception e) {
+            System.out.println("Exception while taking screenshot " + e.getMessage());
+
+        }
+        return screenshotPath;
 
     }
-
 }

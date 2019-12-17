@@ -24,11 +24,7 @@ public class Listeners implements ITestListener {
      //screenshot methods to capture where test failed
 
         String testName = iTestResult.getName();
-        try {
-            TakeScreenshot.getScreenshot(testName);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        TakeScreenshot.captureScreenshot(testName);
 
     }
 

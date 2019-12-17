@@ -3,11 +3,15 @@ package utils;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import org.testng.*;
+import org.testng.annotations.BeforeMethod;
 import org.testng.xml.XmlSuite;
 
+import java.io.IOException;
+import java.time.LocalDateTime;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
@@ -16,15 +20,35 @@ import java.util.Map;
 
 public class ExtentReporterNG implements IReporter {
     private ExtentReports extent;
-    ExtentHtmlReporter htmlReporter;
+    private ExtentHtmlReporter htmlReporter;
+    private ExtentTest logger;
+
+
+    @BeforeMethod
+    public void getTestName (ITestResult result) throws IOException {
+        if(result.getStatus()==ITestResult.FAILURE){
+
+            String temp = TakeScreenshot.captureScreenshot(result.getTestName());
+            logger = extent.createTest(result.getTestName());
+            logger.fail(result.getThrowable().getMessage(), MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
+        }
+    }
+
+
 
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
-        String userDirPath = System.getProperty("user.dir");
+        String workingDir = System.getProperty("user.dir");
 
-//        htmlReporter = new ExtentHtmlReporter("/Users/surendra.singh/Documents/Learning/learn-web-automation/src/main/java/reports/htmlReport.html");
-        htmlReporter = new ExtentHtmlReporter(userDirPath+"/Reports/htmlReport1.html");
+        if (System.getProperty("os.name").toLowerCase().contains("win")) {
+            htmlReporter = new ExtentHtmlReporter(workingDir + "\\Reports\\ExtentReportResults_"+ LocalDateTime.now()+".html");
+        }
+        else if (System.getProperty("os.name").toLowerCase().contains("mac")) {
+            htmlReporter = new ExtentHtmlReporter(workingDir + "/Reports/ExtentReportResults_"+ LocalDateTime.now()+".html");
+        }
+
+//        htmlReporter = new ExtentHtmlReporter(workingDir+"/Reports/htmlReport2.html");
+//        htmlReporter = new ExtentHtmlReporter(workingDir+"/Reports/htmlReport2.html");
         extent = new ExtentReports();
-
         extent.attachReporter(htmlReporter);
         for (ISuite suite : suites) {
             Map<String, ISuiteResult> result = suite.getResults();
