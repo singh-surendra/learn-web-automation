@@ -40,7 +40,7 @@ public class LombokPlugin extends BaseTestWeb {
 
     @Title("Test12")
     @Test
-    public void test2ForFailing(){
+    public void test2(){
 
         log.info("Test");
 
@@ -48,6 +48,18 @@ public class LombokPlugin extends BaseTestWeb {
         Assert.assertEquals("test",driver.getTitle());
 
     }
+
+    @Title("Test12")
+    @Test(groups = "SMOKE")
+    public void test3(){
+
+        log.info("Test");
+        String path = System.getProperty("user.dir");
+        System.out.println(path);
+
+    }
+
+
 
 
 

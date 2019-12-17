@@ -3,4 +3,7 @@
 /Users/surendra.singh/Documents/Learning/learn-web-automation/src/main/java/utils/BaseClass.java
 /Users/surendra.singh/Documents/Learning/learn-web-automation/src/main/java/utils/ExtentReporterNG.java
 /Users/surendra.singh/Documents/Learning/learn-web-automation/src/main/java/utils/Listeners.java
+/Users/surendra.singh/Documents/Learning/learn-web-automation/src/main/java/pages/homepage/HomePage.java
+/Users/surendra.singh/Documents/Learning/learn-web-automation/src/main/java/utils/TakeScreenshot.java
+/Users/surendra.singh/Documents/Learning/learn-web-automation/src/main/java/pages/homepage/HomePageLocators.java
 /Users/surendra.singh/Documents/Learning/learn-web-automation/src/main/java/driverbase/BaseTestWeb.java

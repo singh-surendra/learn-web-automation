@@ -6,30 +6,19 @@
         <listener class-name="utils.ExtentReporterNG"/>
     </listeners>
 
-    <test name="Personal loan">
-        <parameter name="URL" value="personalloan.com"/>
+    <test name="First Test Suite">
+        <groups>
+            <run>
+                <include name="SMOKE"/>
+            </run>
+        </groups>
         <classes>
-            <class name="logging.LombokPlugin">
+            <class name="logging.LombokPlugin"/>
+            <class name="getYourGuide.SimpleTests"/>
                 <!--<methods>-->
-                    <!--&lt;!&ndash;<include name="testCaseForFailing"/>&ndash;&gt;-->
-                    <!--&lt;!&ndash;<include name="helloTest"/>&ndash;&gt;-->
                     <!--<include name="test1"/>-->
                     <!--<include name="test2"/>-->
-
                 <!--</methods>-->
-            </class>
         </classes>
     </test>
-    <!--<test name="Car Loan">-->
-    <!--<parameter name="URL" value="carloan.com"/>-->
-    <!--<parameter name="APIKey/usrname" value="123456"/>-->
-    <!--<classes>-->
-
-    <!--<class name="test.day3">-->
-    <!--<methods>-->
-    <!--<exclude name="API.*"/>-->
-    <!--</methods>-->
-    <!--</class>-->
-    <!--</classes>-->
-    <!--</test>-->
 </suite> 

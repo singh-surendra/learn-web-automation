@@ -21,12 +21,6 @@
     <orderEntry type="library" name="Maven: org.ow2.asm:asm:6.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.ant:ant:1.10.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.ant:ant-launcher:1.10.3" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.1.0.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.1.0.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.1.0.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.1.0.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.1.0.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.1.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.9.1" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-java:3.141.59" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:3.141.59" level="project" />
@@ -96,5 +90,11 @@
     <orderEntry type="library" name="Maven: ru.yandex.qatools.allure:allure-model:1.5.4" level="project" />
     <orderEntry type="library" name="Maven: org.jvnet.jaxb2_commons:jaxb2-basics-runtime:0.9.3" level="project" />
     <orderEntry type="library" name="Maven: ru.qatools.commons:properties:2.0.RC5" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-test:4.3.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:4.3.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.3.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.3.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.3.4.RELEASE" level="project" />
   </component>
 </module>

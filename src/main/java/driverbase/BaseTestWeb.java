@@ -8,18 +8,30 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
 
-public class BaseTestWeb {
+
+import java.util.concurrent.TimeUnit;
+
+
+public class BaseTestWeb  {
 
     public static WebDriver driver = null;
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public WebDriver setUpDriver() {
 
         try {
-            System.setProperty("webdriver.chrome.driver", "/Users/surendra.singh/Documents/Learning/learn-web-automation/src/main/resources/chromedriver2");
+
+            String userDirPath = System.getProperty("user.dir");
+
+//            System.setProperty("webdriver.chrome.driver", "/Users/surendra.singh/Documents/Learning/learn-web-automation/src/main/resources/chromedriver2");
+
+            System.setProperty("webdriver.chrome.driver", userDirPath+"/src/main/resources/chromedriver2/");
 
             driver = new ChromeDriver();
             driver.manage().window().maximize();
+            driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+
         } catch (Exception exp) {
 
             System.out.println("Cause is :" + exp.getCause());
@@ -29,7 +41,7 @@ public class BaseTestWeb {
         return driver;
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown() {
         driver.quit();
     }
