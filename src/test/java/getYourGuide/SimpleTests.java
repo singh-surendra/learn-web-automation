@@ -1,6 +1,7 @@
 package getYourGuide;
 
 import driverbase.BaseTestWeb;
+import org.apache.tools.ant.taskdefs.Retry;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
@@ -16,7 +17,7 @@ public class SimpleTests extends BaseTestWeb {
 
     HomePage homePage = new HomePage();
 
-    @Test(groups = {"SMOKE1"})
+    @Test(groups = {"SMOKE"})
     @Title("Test home page loading")
     public void testHomepage() {
 
@@ -24,7 +25,7 @@ public class SimpleTests extends BaseTestWeb {
 
     }
 
-    @Test(groups = {"SMOKE1"})
+    @Test(groups = {"SMOKE"})
     @Title("Test home page loading")
     public void verifyPageTitle() {
         homePage.openHomePage();
@@ -37,7 +38,6 @@ public class SimpleTests extends BaseTestWeb {
         homePage.openHomePage();
         Assert.assertEquals("test",homePage.getPageTitle());
     }
-
 
 
     @Test

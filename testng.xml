@@ -2,8 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="SMOKE" parallel="tests" thread-count="6">
     <listeners>
-        <listener class-name="utils.Listeners"/>
-        <listener class-name="utils.ExtentReporterNG"/>
+        <!--<listener class-name="utils.Listeners"/>-->
+        <!--<listener class-name="utils.ExtentReporterNG"/>-->
+        <listener class-name="utils.TestListeners"/>
     </listeners>
 
     <test name="First Test Suite">
