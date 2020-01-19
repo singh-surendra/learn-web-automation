@@ -1,2 +1,2 @@
-# learn-web-autoamtion
+# learn-web-automation
 happy learning
