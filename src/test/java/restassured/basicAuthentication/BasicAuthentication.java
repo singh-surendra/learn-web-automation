@@ -27,7 +27,8 @@ public class BasicAuthentication extends BaseAuthentication{
     @Test
     public void basicAuthentication1() {
 
-        //Here we setup username and passord , URI and many other constants in base class so we do nto need to provide here and all our test cases can be run without passing authentication details one by one
+        //Here we setup username and passord , URI and many other constants in base class
+        // so we do nto need to provide here and all our test cases can be run without passing authentication details one by one
         int code = RestAssured.given()
                 .get()
                 .getStatusCode();

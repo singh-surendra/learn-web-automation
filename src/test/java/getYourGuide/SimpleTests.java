@@ -1,10 +1,7 @@
 package getYourGuide;
 
 import driverbase.BaseTestWeb;
-import org.apache.tools.ant.taskdefs.Retry;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Lazy;
-import org.springframework.stereotype.Component;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.homepage.HomePage;

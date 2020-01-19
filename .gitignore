@@ -11,3 +11,4 @@ src/main/*.groovy
 allure-results
 */allre-results
 *.xml
+workspace.xml

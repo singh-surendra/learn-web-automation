@@ -12,12 +12,12 @@ public class Oauth2Practice {
 app link : http://coop.apps.symfonycasts.com/
 https://auth0.com/docs/protocols/oauth2
 
+//Credentials : surendrasingh.db@gmail.com/Basa
 
 Access Token for SurendraApp = 81de11f5639eea108f40fca676f73ca0f1e0038c
-
 User-id = 611
-
-
+Create an application
+Generate token
 
  */
 
@@ -27,7 +27,7 @@ User-id = 611
 
         Response response = RestAssured.given()
                 .auth()
-                .oauth2("81de11f5639eea108f40fca676f73ca0f1e0038c")
+                .oauth2("91807c9c070a292460d163acb216aaa756ea676a")
                 .post("http://coop.apps.symfonycasts.com/api/611/chickens-feed");
 
         System.out.println("Code is" + response.getStatusCode());
