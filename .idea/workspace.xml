@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca2b57c-c0bf-4cb8-bf03-6b64f4c8ffd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/CsvReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ReadCsvFileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/TestDataProvider_CSV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/getYourGuide/DataProviderTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/getYourGuide/SoftHardAssert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/testData.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppiumDemoProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AppiumDemoProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/CsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/CsvReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/getYourGuide/SimpleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getYourGuide/SimpleTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,17 +134,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="1" />
+          <entry key="csv" value="3" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="30" />
-          <entry key="xml" value="5" />
+          <entry key="java" value="39" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="30" />
+          <entry key="CSV" value="2" />
+          <entry key="JAVA" value="39" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -144,16 +153,16 @@
           <entry key="csv" value="1" />
           <entry key="dummy" value="17" />
           <entry key="gitignore" value="14" />
-          <entry key="java" value="1894" />
-          <entry key="xml" value="22" />
+          <entry key="java" value="2836" />
+          <entry key="xml" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="1" />
-          <entry key="JAVA" value="1894" />
+          <entry key="JAVA" value="2836" />
           <entry key="PLAIN_TEXT" value="31" />
-          <entry key="XML" value="22" />
+          <entry key="XML" value="25" />
         </counts>
       </usages-collector>
     </session>
@@ -163,30 +172,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
+            <state relative-caret-position="3060">
               <caret line="204" selection-start-line="204" selection-end-line="204" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/testData.csv">
-          <provider editor-type-id="csv-text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/test/java/getYourGuide/DataProviderTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
-            </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/CsvReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="255">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,20 +190,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/TestData.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="165">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/EcommerceTC1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/TestDataProvider_CSV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+            <state relative-caret-position="165">
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/resources/testData.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/ReadCsvFileUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -262,11 +282,9 @@
         <option value="$PROJECT_DIR$/src/main/java/utils/Listeners.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/BrowserWait.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/homepage/HomePage.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/utils/TakeScreenshot.java" />
         <option value="$PROJECT_DIR$/src/main/java/driverbase/BaseTestWeb.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/TestListeners.java" />
-        <option value="$PROJECT_DIR$/src/test/java/getYourGuide/SimpleTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/basicAuthentication/BaseAuthentication.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/basicAuthentication/BasicAuthentication.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/OAuth1/TwitterDemo.java" />
@@ -282,10 +300,17 @@
         <option value="$PROJECT_DIR$/src/test/java/restassured/cookieAuthentication/CookieBasedAuthentication.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/pojo_seralization/Projects.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/utils/CSVReader.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/testData.csv" />
+        <option value="$PROJECT_DIR$/src/test/java/getYourGuide/SimpleTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/getYourGuide/SoftHardAssert.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/CsvReader.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/ReadCsvFileUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/testData.csv" />
+        <option value="$PROJECT_DIR$/src/test/java/resources/testData.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/TestDataProvider_CSV.java" />
+        <option value="$PROJECT_DIR$/src/test/java/getYourGuide/DataProviderTests.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
       </list>
     </option>
   </component>
@@ -339,42 +364,30 @@
               <item name="AppiumDemoProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn-web-automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AppiumDemoProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn-web-automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AppiumDemoProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn-web-automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="getYourGuide" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AppiumDemoProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn-web-automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppiumDemoProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn-web-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppiumDemoProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn-web-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -384,7 +397,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="take&#9;FILE&#9;file:///Users/surendra.singh/Documents/Learning/learn-web-automation/src/main/java/utils/TakeScreenshot.java&#10;test2&#9;PSI&#9;JAVA://logging.LombokPlugin#test2" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579471087599" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579620389387" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
@@ -393,6 +406,7 @@
       <recent name="restassured.OAuth1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -409,43 +423,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CsvReader.test">
-    <configuration name="CreateFinalPayloadTest.complextPaylod" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AppiumDemoProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restassured.pojo_seralization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restassured.pojo" />
-      <option name="MAIN_CLASS_NAME" value="restassured.pojo_seralization.CreateFinalPayloadTest" />
-      <option name="METHOD_NAME" value="complextPaylod" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateFinalPayloadTest.simplePaylodTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AppiumDemoProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restassured.pojo_seralization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restassured.pojo" />
-      <option name="MAIN_CLASS_NAME" value="restassured.pojo_seralization.CreateFinalPayloadTest" />
-      <option name="METHOD_NAME" value="simplePaylodTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG./Users/surendra.singh/Documents/Suri Automation Learning/REST Assured/learn-web-automation/testng.xml">
     <configuration name="CsvReader.test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumDemoProject" />
       <extension name="coverage">
@@ -464,17 +442,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Oauth2Practice.accessInvalidAPI" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DataProviderTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumDemoProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="restassured.OAuth2.*" />
+          <option name="PATTERN" value="getYourGuide.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="restassured.OAuth2" />
-      <option name="MAIN_CLASS_NAME" value="restassured.OAuth2.Oauth2Practice" />
-      <option name="METHOD_NAME" value="accessInvalidAPI" />
+      <option name="PACKAGE_NAME" value="getYourGuide" />
+      <option name="MAIN_CLASS_NAME" value="getYourGuide.DataProviderTests" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataProviderTests.test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumDemoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="getYourGuide.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="getYourGuide" />
+      <option name="MAIN_CLASS_NAME" value="getYourGuide.DataProviderTests" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -482,18 +476,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Oauth2Practice.generateAccessTokenAndPass" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DataProviderTests.testMultipleSearch" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumDemoProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="restassured.OAuth2.*" />
+          <option name="PATTERN" value="getYourGuide.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="restassured.OAuth2" />
-      <option name="MAIN_CLASS_NAME" value="restassured.OAuth2.Oauth2Practice" />
-      <option name="METHOD_NAME" value="generateAccessTokenAndPass" />
+      <option name="PACKAGE_NAME" value="getYourGuide" />
+      <option name="MAIN_CLASS_NAME" value="getYourGuide.DataProviderTests" />
+      <option name="METHOD_NAME" value="testMultipleSearch" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/surendra.singh/Documents/Suri Automation Learning/REST Assured/learn-web-automation/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumDemoProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -501,19 +505,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.Oauth2Practice.generateAccessTokenAndPass" />
-      <item itemvalue="TestNG.Oauth2Practice.accessInvalidAPI" />
-      <item itemvalue="TestNG.CreateFinalPayloadTest.simplePaylodTest" />
-      <item itemvalue="TestNG.CreateFinalPayloadTest.complextPaylod" />
       <item itemvalue="TestNG.CsvReader.test" />
+      <item itemvalue="TestNG.DataProviderTests.testMultipleSearch" />
+      <item itemvalue="TestNG.DataProviderTests.test" />
+      <item itemvalue="TestNG.DataProviderTests" />
+      <item itemvalue="TestNG./Users/surendra.singh/Documents/Suri Automation Learning/REST Assured/learn-web-automation/testng.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/surendra.singh/Documents/Suri Automation Learning/REST Assured/learn-web-automation/testng.xml" />
+        <item itemvalue="TestNG.DataProviderTests.testMultipleSearch" />
+        <item itemvalue="TestNG.DataProviderTests" />
+        <item itemvalue="TestNG.DataProviderTests.test" />
         <item itemvalue="TestNG.CsvReader.test" />
-        <item itemvalue="TestNG.CreateFinalPayloadTest.complextPaylod" />
-        <item itemvalue="TestNG.CreateFinalPayloadTest.simplePaylodTest" />
-        <item itemvalue="TestNG.Oauth2Practice.accessInvalidAPI" />
-        <item itemvalue="TestNG.Oauth2Practice.generateAccessTokenAndPass" />
       </list>
     </recent_temporary>
   </component>
@@ -637,42 +641,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Oauth2Practice_test1 - 2020.01.19 at 15h 41m 40s.xml">
-      <configuration name="Oauth2Practice.test1" configurationId="TestNG" />
+    <history-entry file="DataProviderTests_testMultipleSearch - 2020.01.21 at 16h 08m 39s.xml">
+      <configuration name="DataProviderTests.testMultipleSearch" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TwitterDemo_postTweetAndDeleteTweet - 2020.01.19 at 15h 49m 05s.xml">
-      <configuration name="TwitterDemo.postTweetAndDeleteTweet" configurationId="TestNG" />
+    <history-entry file="DataProviderTests_testMultipleSearch - 2020.01.21 at 16h 14m 20s.xml">
+      <configuration name="DataProviderTests.testMultipleSearch" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Oauth2Practice_generateAccessTokenAndPass - 2020.01.19 at 15h 49m 44s.xml">
-      <configuration name="Oauth2Practice.generateAccessTokenAndPass" configurationId="TestNG" />
+    <history-entry file="DataProviderTests_testMultipleSearch - 2020.01.21 at 16h 15m 25s.xml">
+      <configuration name="DataProviderTests.testMultipleSearch" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Oauth2Practice_accessInvalidAPI - 2020.01.19 at 16h 43m 13s.xml">
-      <configuration name="Oauth2Practice.accessInvalidAPI" configurationId="TestNG" />
+    <history-entry file="DataProviderTests_testMultipleSearch - 2020.01.21 at 16h 16m 13s.xml">
+      <configuration name="DataProviderTests.testMultipleSearch" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FinalPayloadTest_simplePaylodTest - 2020.01.19 at 21h 32m 29s.xml">
-      <configuration name="FinalPayloadTest.simplePaylodTest" configurationId="TestNG" />
+    <history-entry file="DataProviderTests_testMultipleSearch - 2020.01.21 at 16h 16m 33s.xml">
+      <configuration name="DataProviderTests.testMultipleSearch" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FinalPayloadTest_complextPaylod - 2020.01.19 at 21h 38m 41s.xml">
-      <configuration name="FinalPayloadTest.complextPaylod" configurationId="TestNG" />
+    <history-entry file="DataProviderTests_testMultipleSearch - 2020.01.21 at 16h 17m 41s.xml">
+      <configuration name="DataProviderTests.testMultipleSearch" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FinalPayloadTest_complextPaylod - 2020.01.19 at 21h 39m 08s.xml">
-      <configuration name="FinalPayloadTest.complextPaylod" configurationId="TestNG" />
+    <history-entry file="_Users_surendra_singh_Documents_Suri_Automation_Learning_REST_Assured_learn-web-automation_testng_xml - 2020.01.21 at 16h 24m 22s.xml">
+      <configuration name="/Users/surendra.singh/Documents/Suri Automation Learning/REST Assured/learn-web-automation/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FinalPayloadTest_complextPaylod - 2020.01.19 at 21h 40m 35s.xml">
-      <configuration name="FinalPayloadTest.complextPaylod" configurationId="TestNG" />
+    <history-entry file="_Users_surendra_singh_Documents_Suri_Automation_Learning_REST_Assured_learn-web-automation_testng_xml - 2020.01.21 at 16h 24m 44s.xml">
+      <configuration name="/Users/surendra.singh/Documents/Suri Automation Learning/REST Assured/learn-web-automation/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CsvReader_test - 2020.01.19 at 22h 49m 43s.xml">
-      <configuration name="CsvReader.test" configurationId="TestNG" />
+    <history-entry file="_Users_surendra_singh_Documents_Suri_Automation_Learning_REST_Assured_learn-web-automation_testng_xml - 2020.01.21 at 16h 25m 30s.xml">
+      <configuration name="/Users/surendra.singh/Documents/Suri Automation Learning/REST Assured/learn-web-automation/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CsvReader_test - 2020.01.19 at 22h 50m 43s.xml">
-      <configuration name="CsvReader.test" configurationId="TestNG" />
+    <history-entry file="_Users_surendra_singh_Documents_Suri_Automation_Learning_REST_Assured_learn-web-automation_testng_xml - 2020.01.21 at 16h 26m 34s.xml">
+      <configuration name="/Users/surendra.singh/Documents/Suri Automation Learning/REST Assured/learn-web-automation/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22460657" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22460657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -681,13 +685,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3283767" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3283767" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21561338" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.21561338" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.21561338" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32961586" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32961586" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -720,30 +724,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="report and screenshots with timestamp" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test2ForFailing.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/homepage/HomePageLocators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postData/PostRequest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/verifyScreenshot.png" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/ITestListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/verifyScreenshots1576614092100.png" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/IReporter.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -771,6 +751,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -838,24 +821,13 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/TestListeners.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="67" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/TakeScreenshot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
           <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -944,20 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/driverbase/BaseTestWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/getYourGuide/SimpleTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/homepage/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -986,24 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="204" selection-start-line="204" selection-end-line="204" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/testData.csv">
-      <provider editor-type-id="csv-text-editor" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/EcommerceTC1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1014,17 +954,126 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/TestData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="37" />
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/getYourGuide/SoftHardAssert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/CsvReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="780">
+          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="407" column="19" selection-start-line="407" selection-start-column="19" selection-end-line="407" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/driverbase/BaseTestWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testData.csv">
+      <provider editor-type-id="csv-text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="56" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/TestListeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/getYourGuide/SimpleTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/ReadCsvFileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/testData.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/TestDataProvider_CSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/getYourGuide/DataProviderTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>

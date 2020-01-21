@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="SMOKE" parallel="tests" thread-count="6">
+<suite name="SMOKE" parallel="methods" thread-count="6">
     <listeners>
         <!--<listener class-name="utils.Listeners"/>-->
         <!--<listener class-name="utils.ExtentReporterNG"/>-->
@@ -14,8 +14,8 @@
             </run>
         </groups>
         <classes>
-            <class name="logging.LombokPlugin"/>
-            <class name="getYourGuide.SimpleTests"/>
+            <!--<class name="logging.LombokPlugin"/>-->
+            <class name="getYourGuide.DataProviderTests"/>
                 <!--<methods>-->
                     <!--<include name="test1"/>-->
                     <!--<include name="test2"/>-->
