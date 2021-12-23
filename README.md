@@ -1,2 +1,2 @@
 # learn-web-automation
-happy learning
+happy learning :)
